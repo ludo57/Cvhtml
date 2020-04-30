@@ -1,0 +1,343 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1080px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+.photo {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.photo img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid rgb(255, 123, 0);
+}
+
+.LUDOVIC {
+    color: yellow;
+    font-size: 55px;
+    margin-top: 5px;
+}
+
+.cvpage {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.cvpartie-gauche {
+    width: 400px;
+    background-color: rgba(255, 208, 0, 0.87);
+    text-align: justify;
+    text-justify: 10px;
+    height: 100%;
+}
+
+.cvpartie-droite {
+    width: calc(100% - 300px);
+    text-align: justify;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 55px;
+    padding-left: 20px;
+    margin-top: 20%;
+    margin-bottom: 0px;
+}
+
+.tiret {
+    width: 70px;
+    height: 2px;
+    background-color: yellow;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: yellow;
+    font-size: 25px;
+    background-color: black;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    width: 90%;
+    font-size: 20px;
+    border-bottom: 2px blue solid;
+    text-align: justify;
+}
+
+h3>i {
+    color: yellow;
+    font-size: x-large;
+    margin-right: 1em;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.ptite {
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.icones {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.description {
+    font-size: 28px;
+}
+
+.poste {
+    display: flex;
+    font-size: 16px;
+    font-style: italic;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.durée {
+    font-size: 16px;
+}
+
+.lieu {
+    font-size: 16px;
+    text-align: justify;
+    font-weight: normal;
+    font-weight: bold;
+    margin-left: 1.1em;
+}
+
+.option {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.contact {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    justify-content: justify;
+}
+
+.contact p {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.info {
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 215px;
+}
+
+.info p {
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.diplomes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cert {
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.date {
+    flex-wrap: nowrap;
+    width: 40%;
+    text-align: left;
+    font-weight: bold;
+}
+
+p>i {
+    color: yellow;
+    text-align: justify;
+    margin-right: 1em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: x-small;
+}
+
+.expérience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.exp {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.entreprises {
+    justify-content: flex-end;
+    text-align: left;
+    width: 50%;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.autreInfos {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.reco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.personnel {
+    text-align: justify;
+    align-content: flex-start;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 16px;
+}
+
+.titre {
+    font-weight: bold;
+}
+
+.metier {
+    font-weight: bold;
+}
+
+.numero {
+    font-weight: bold;
+}
+
+.icones>span {
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: x-large;
+}
+
+@media screen and (max-width: 1024px) {
+    .body {
+        text-align: justify;
+        font-size: xx-large;
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400px;
+    }
+    .cvpage {
+        width: 100%;
+        font-size: xx-large;
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .cvpartie-gauche {
+        width: 100%;
+        margin-bottom: 2px;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .cvpartie-droite {
+        width: 100%;
+        font-size: xx-large;
+        margin-right: 0px;
+        text-align: justify;
+    }
+    .option {
+        font-size: xx-large;
+    }
+    .lieu {
+        font-size: xx-large;
+    }
+    .date {
+        font-size: xx-large;
+    }
+    .entreprises {
+        font-size: xx-large;
+        width: 50%;
+        margin-right: 20px;
+    }
+    .poste {
+        font-size: xx-large;
+    }
+    .photo img {
+        width: 150px;
+        float: right;
+    }
+    p {
+        font-size: xx-large;
+        text-align: justify;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    .LUDOVIC {
+        font-size: xx-large;
+    }
+    h2 {
+        font-size: xx-large;
+    }
+    h3 {
+        font-size: xx-large;
+    }
+    .icones {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .poste {
+        font-size: xx-large;
+    }
+    .date {
+        font-size: xx-large;
+    }
+    .entreprises {
+        font-size: xx-large;
+        width: 50%;
+        margin-right: 10px;
+    }
+}
