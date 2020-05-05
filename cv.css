@@ -57,7 +57,7 @@ h1 {
 }
 
 .tiret {
-    width: 70px;
+    width: 75px;
     height: 2px;
     background-color: yellow;
     margin-bottom: 70px;
@@ -73,7 +73,7 @@ h2 {
 
 h3 {
     display: block;
-    width: 90%;
+    width: 100%;
     font-size: 20px;
     border-bottom: 2px blue solid;
     text-align: justify;
@@ -219,7 +219,7 @@ p>i {
 
 .autreInfos {
     display: flex;
-    font-size: 14px;
+    font-size: 16px;
     flex-direction: column;
     margin-top: 15px;
 }
@@ -269,24 +269,27 @@ p>i {
         font-size: xx-large;
         margin: 0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: 400px;
+        font-weight: 500px;
     }
     .cvpage {
         width: 100%;
+        padding: auto;
         font-size: xx-large;
         display: block;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .cvpartie-gauche {
-        width: 100%;
+        width: auto;
         margin-bottom: 2px;
         text-align: center;
         font-size: xx-large;
     }
     .cvpartie-droite {
-        width: 100%;
-        font-size: xx-large;
+        background-color: rgba(80, 255, 255, 0.678);
+        width: auto;
+        justify-content: space-evenly;
+        font-size: x-large;
         margin-right: 0px;
         text-align: justify;
     }
@@ -298,11 +301,12 @@ p>i {
     }
     .date {
         font-size: xx-large;
+        width: 50%;
     }
     .entreprises {
         font-size: xx-large;
+        margin-right: 0px;
         width: 50%;
-        margin-right: 20px;
     }
     .poste {
         font-size: xx-large;
@@ -314,50 +318,30 @@ p>i {
     p {
         font-size: xx-large;
         text-align: justify;
+        justify-content: space-evenly;
     }
     h1 {
         font-size: xx-large;
+        text-align: center;
     }
     .LUDOVIC {
         font-size: xx-large;
+        text-align: center;
+    }
+    .description {
+        font-size: xx-large;
+    }
+    .tiret {
+        text-align: center;
+        margin-left: 35%;
     }
     h2 {
         font-size: xx-large;
     }
     h3 {
-        font-size: xx-large;
-    }
-    .icones {
-        font-size: xx-large;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .cvpage {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: xx-large;
-        font-weight: bolder;
-    }
-    .cvpartie-gauche {
         font-size: x-large;
-        text-align: justify;
-        font-weight: bold;
     }
-    p {
+    .icones>span {
         font-size: xx-large;
-        text-align: justify;
-    }
-    .poste {
-        font-size: xx-large;
-    }
-    .date {
-        font-size: xx-large;
-    }
-    .entreprises {
-        font-size: xx-large;
-        width: 50%;
-        margin-right: 10px;
     }
 }
