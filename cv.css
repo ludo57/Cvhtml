@@ -261,12 +261,13 @@ p>i {
     color: black;
     font-size: xx-large;
 }
+/*responsive design*/
 
 @media screen and (max-width: 1024px) {
     .body {
         width: 100%;
         text-align: justify;
-        font-size: xx-large;
+        padding: 0;
         margin: 0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 500px;
@@ -274,74 +275,103 @@ p>i {
     .cvpage {
         width: 100%;
         padding: auto;
-        font-size: xx-large;
-        display: block;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        display : block;
+        flex-direction : column;
     }
     .cvpartie-gauche {
         width: auto;
         margin-bottom: 2px;
-        text-align: center;
-        font-size: xx-large;
+        text-align: justify;
     }
     .cvpartie-droite {
-        background-color: rgba(80, 255, 255, 0.678);
-        width: auto;
+        width:auto;
         justify-content: space-evenly;
-        font-size: x-large;
-        margin-right: 0px;
         text-align: justify;
     }
     .option {
-        font-size: xx-large;
-    }
-    .lieu {
-        font-size: xx-large;
-    }
-    .date {
-        font-size: xx-large;
-        width: 50%;
-    }
-    .entreprises {
-        font-size: xx-large;
-        margin-right: 0px;
-        width: 50%;
-    }
-    .poste {
-        font-size: xx-large;
+        font-size: 35px;
     }
     .photo img {
-        width: 150px;
-        float: right;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        box-shadow: 0px 0px 5px black;
+        padding: 0;
+        margin: 0;
     }
     p {
-        font-size: xx-large;
+        font-size: 45px;
         text-align: justify;
         justify-content: space-evenly;
+        padding: 25px;
     }
     h1 {
-        font-size: xx-large;
+        font-size: 60px;
         text-align: center;
     }
     .LUDOVIC {
-        font-size: xx-large;
+        color: #FFD933;
+        text-shadow: 0px 0px 1px black;
+        font-size: 60px;
         text-align: center;
     }
     .description {
-        font-size: xx-large;
+        font-size: 45px;
     }
     .tiret {
         text-align: center;
         margin-left: 35%;
     }
     h2 {
-        font-size: xx-large;
+        font-size: 50px;
     }
     h3 {
-        font-size: xx-large;
+        font-size: 45px;
     }
-    .icones>span {
-        font-size: xx-large;
+    .icones>span {   
+    font-size:48px;
+    }
+    .icones>p{
+        font-size:35px;
+    }
+
+    .date{
+        font-size: 40px;
+        width: 50%
+    }
+    .cert{
+        font-size: 40px;
+        width: 50%
+    }
+    .entreprises{
+        font: size 40px;
+        width: 50%;
+    }
+    .poste{
+        font-size: 38px;
+    }
+    .lieu{
+        font-size: 38px;
+        font-weight: normal;
+    }
+    .personnel{
+        display: flex;
+        flex-wrap:nowrap;
+        justify-content: space-evenly;
+        width: 100%;
+        text-align: justify;
+    }
+    .nom{
+        width: 50%;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .renseignenments{
+        display: flex;
+        width: 50%;
+        flex-wrap:wrap;
     }
 }
