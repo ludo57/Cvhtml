@@ -4,6 +4,9 @@ body {
     width: 1080px;
     box-shadow: 0px 0px 5px grey;
 }
+.mobileheader{
+    display: none;
+}
 
 .photo {
     width: auto;
@@ -173,7 +176,7 @@ h3>i {
 }
 
 .cert {
-    width: 50%;
+    width: 60%;
     text-align: left;
     font-weight: bold;
 }
@@ -272,6 +275,40 @@ p>i {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 500px;
     }
+    .mobileheader{
+        display: flex;
+        justify-content: space-around;
+        height: 180px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .mobileheader img{
+        text-align: center;
+        height: 280px;
+        width: 280px;
+        margin: 5px;
+        margin-bottom: 10px;
+        object-fit: cover;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid rgb(255, 123, 0);
+    }
+    .head{
+        text-align: center;
+        font-size: 70px;
+        margin-bottom: 5px;
+        text-shadow: 0px 0px 1px black;
+    }
+    .LUDO{
+        color: #FFD933;
+        text-shadow: 0px 0px px black;
+        font-size: 60px;
+        text-align: center;
+    }
+    .description{
+        font-size: 55px;
+        font-style: oblique;
+    }
     .cvpage {
         width: 100%;
         padding: auto;
@@ -292,6 +329,7 @@ p>i {
         font-size: 35px;
     }
     .photo img {
+        display: none;
         height: 200px;
         width: 200px;
         border-radius: 50%;
@@ -306,11 +344,15 @@ p>i {
         font-size: 45px;
         text-align: justify;
         justify-content: space-evenly;
-        padding: 25px;
+        padding: 35px;
+    }
+    .nom{
+        display: none;
     }
     h1 {
         font-size: 60px;
         text-align: center;
+        display: none;
     }
     .LUDOVIC {
         color: #FFD933;
@@ -324,6 +366,7 @@ p>i {
     .tiret {
         text-align: center;
         margin-left: 35%;
+        display: none;
     }
     h2 {
         font-size: 50px;
@@ -332,12 +375,17 @@ p>i {
         font-size: 45px;
     }
     .icones>span {   
-    font-size:48px;
+    font-size:100px;
+    height: 140px;
+    width: 140px;
+    line-height: 140px;
     }
-    .icones>p{
+    .icones > p{
         font-size:35px;
     }
-
+    .icones > span > i{
+        font-size: 100px;
+    }
     .date{
         font-size: 40px;
         width: 50%
