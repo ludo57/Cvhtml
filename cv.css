@@ -305,31 +305,22 @@ p>i {
         font-size: 60px;
         text-align: center;
     }
-    .trait{
-        text-align: center;
-        margin-left: 35%;
-        width: 75px;
-        height: 2px;
-        background-color: yellow;
-        margin-top: 80px;
-    }
-    .description{
-        font-size: 55px;
-        font-style: oblique;
-    }
     .cvpage {
         width: 100%;
         padding: auto;
         display : block;
         flex-direction : column;
+        overflow: hidden;
     }
     .cvpartie-gauche {
         width: auto;
         margin-bottom: 2px;
         text-align: justify;
+        font-size: 40px;
     }
     .cvpartie-droite {
         width:auto;
+        font-size: 40px;
         justify-content: space-evenly;
         text-align: justify;
     }
@@ -348,13 +339,10 @@ p>i {
         padding: 0;
         margin: 0;
     }
-    p {
-        font-size: 45px;
-        text-align: justify;
-        justify-content: space-evenly;
-        padding: 35px;
-    }
     .nom{
+        display: none;
+    }
+    .tiret{
         display: none;
     }
     h1 {
@@ -371,11 +359,6 @@ p>i {
     .description {
         font-size: 45px;
     }
-    .tiret {
-        text-align: center;
-        margin-left: 35%;
-        display: none;
-    }
     h2 {
         font-size: 50px;
     }
@@ -389,7 +372,7 @@ p>i {
     line-height: 140px;
     }
     .icones > p{
-        font-size:35px;
+        font-size:40px;
     }
     .icones > span > i{
         font-size: 100px;
@@ -403,31 +386,30 @@ p>i {
         width: 50%
     }
     .entreprises{
-        font: size 40px;
+        font-size: 40px;
         width: 50%;
     }
     .poste{
-        font-size: 38px;
+        font-size: 36px;
     }
     .lieu{
-        font-size: 38px;
+        font-size: 36px;
         font-weight: normal;
     }
     .personnel{
         display: flex;
         flex-wrap:nowrap;
-        justify-content: space-evenly;
         width: 100%;
         text-align: justify;
+        font-size: 35px;
     }
     .nom{
         width: 50%;
         display: flex;
-        flex-wrap:wrap;
+        width: 30%;
     }
     .renseignenments{
         display: flex;
-        width: 50%;
-        flex-wrap:wrap;
+        width: 70%;
     }
 }
