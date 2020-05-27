@@ -176,14 +176,14 @@ h3>i {
 }
 
 .cert {
-    width: 60%;
+    width: 50%;
     text-align: left;
     font-weight: bold;
 }
 
 .date {
     flex-wrap: nowrap;
-    width: 40%;
+    width: 50%;
     text-align: left;
     font-weight: bold;
 }
@@ -304,6 +304,14 @@ p>i {
         text-shadow: 0px 0px px black;
         font-size: 60px;
         text-align: center;
+    }
+    .trait{
+        text-align: center;
+        margin-left: 35%;
+        width: 75px;
+        height: 2px;
+        background-color: yellow;
+        margin-top: 80px;
     }
     .description{
         font-size: 55px;
