@@ -4,7 +4,8 @@ body {
     width: 1080px;
     box-shadow: 0px 0px 5px grey;
 }
-.mobileheader{
+
+.mobileheader {
     display: none;
 }
 
@@ -41,7 +42,6 @@ body {
     width: 400px;
     background-color: rgba(255, 208, 0, 0.87);
     text-align: justify;
-    text-justify: 10px;
     height: 100%;
 }
 
@@ -140,7 +140,7 @@ h3>i {
 .contact {
     margin-top: 40px;
     margin-bottom: 20px;
-    justify-content: justify;
+    justify-content: center;
 }
 
 .contact p {
@@ -264,6 +264,8 @@ p>i {
     color: black;
     font-size: xx-large;
 }
+
+
 /*responsive design*/
 
 @media screen and (max-width: 1024px) {
@@ -273,16 +275,15 @@ p>i {
         padding: 0;
         margin: 0;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: 500px;
     }
-    .mobileheader{
+    .mobileheader {
         display: flex;
         justify-content: space-around;
         height: 180px;
         text-align: center;
         margin-bottom: 50px;
     }
-    .mobileheader img{
+    .mobileheader img {
         text-align: center;
         height: 280px;
         width: 280px;
@@ -293,23 +294,22 @@ p>i {
         object-fit: cover;
         border: 3px solid rgb(255, 123, 0);
     }
-    .head{
+    .head {
         text-align: center;
         font-size: 70px;
         margin-bottom: 5px;
         text-shadow: 0px 0px 1px black;
     }
-    .LUDO{
+    .LUDO {
         color: #FFD933;
-        text-shadow: 0px 0px px black;
+        text-shadow: 0px 0px 1px black;
         font-size: 60px;
         text-align: center;
     }
     .cvpage {
         width: 100%;
-        padding: auto;
-        display : block;
-        flex-direction : column;
+        display: block;
+        flex-direction: column;
         overflow: hidden;
     }
     .cvpartie-gauche {
@@ -319,7 +319,7 @@ p>i {
         font-size: 40px;
     }
     .cvpartie-droite {
-        width:auto;
+        width: auto;
         font-size: 40px;
         justify-content: space-evenly;
         text-align: justify;
@@ -339,10 +339,10 @@ p>i {
         padding: 0;
         margin: 0;
     }
-    .nom{
+    .nom {
         display: none;
     }
-    .tiret{
+    .tiret {
         display: none;
     }
     h1 {
@@ -365,50 +365,50 @@ p>i {
     h3 {
         font-size: 45px;
     }
-    .icones>span {   
-    font-size:100px;
-    height: 140px;
-    width: 140px;
-    line-height: 140px;
+    .icones>span {
+        font-size: 100px;
+        height: 140px;
+        width: 140px;
+        line-height: 140px;
     }
-    .icones > p{
-        font-size:40px;
+    .icones>p {
+        font-size: 40px;
     }
-    .icones > span > i{
+    .icones>span>i {
         font-size: 100px;
     }
-    .date{
+    .date {
         font-size: 40px;
         width: 50%
     }
-    .cert{
+    .cert {
         font-size: 40px;
         width: 50%
     }
-    .entreprises{
+    .entreprises {
         font-size: 40px;
         width: 50%;
     }
-    .poste{
+    .poste {
         font-size: 36px;
     }
-    .lieu{
+    .lieu {
         font-size: 36px;
         font-weight: normal;
     }
-    .personnel{
+    .personnel {
         display: flex;
-        flex-wrap:nowrap;
+        flex-wrap: nowrap;
         width: 100%;
         text-align: justify;
         font-size: 35px;
     }
-    .nom{
+    .nom {
         width: 50%;
         display: flex;
         width: 30%;
     }
-    .renseignenments{
+    .renseignenments {
         display: flex;
         width: 70%;
     }
